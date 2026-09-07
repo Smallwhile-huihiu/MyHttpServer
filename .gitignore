@@ -1,0 +1,27 @@
+# 编译文件
+*.o
+*.a
+*.so
+
+# 可执行文件
+myhttpserver
+server
+
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+
+# 临时文件
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
