@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="3VCveFfxPGQBlKQse7hy">
+    <mxGraphModel dx="1204" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="main函数入口" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="-1120" as="geometry" />
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-2" edge="1" parent="1" source="b7I3QamMP3vFhhAO0Fb4-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="-1040" as="sourcePoint" />
+            <mxPoint x="110" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="命令行参数解析&lt;br&gt;（t-线程数，l-日志路径，p-端口号）" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="创建EventLoop" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="-880" as="geometry" />
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="109.5" y="-940" as="sourcePoint" />
+            <mxPoint x="109.5" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-12" edge="1" parent="1" source="b7I3QamMP3vFhhAO0Fb4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b7I3QamMP3vFhhAO0Fb4-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="创建Server" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="-760" as="geometry" />
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="109.5" y="-820" as="sourcePoint" />
+            <mxPoint x="109.5" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="mainloop.loop()" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="-640" as="geometry" />
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="109.5" y="-700" as="sourcePoint" />
+            <mxPoint x="109.5" y="-640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="函数结束" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="-520" as="geometry" />
+        </mxCell>
+        <mxCell id="b7I3QamMP3vFhhAO0Fb4-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="109.5" y="-580" as="sourcePoint" />
+            <mxPoint x="109.5" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
